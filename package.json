@@ -1,0 +1,28 @@
+{
+  "name": "musicfest13",
+  "version": "1.0.0",
+  "description": "Music Festival",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EleVaT3D/MusicFest13.git"
+  },
+  "keywords": [
+    "Music",
+    "Festival"
+  ],
+  "author": "EleVaT3D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EleVaT3D/MusicFest13/issues"
+  },
+  "homepage": "https://github.com/EleVaT3D/MusicFest13#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.1"
+  }
+}

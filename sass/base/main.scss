@@ -1,0 +1,177 @@
+/*body{
+	max-width: 1920px;
+	width: 100%;
+}*/
+
+
+/*HEADER*/
+.header{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1220px;
+	margin: 0 auto;
+    width: $width01;
+    .list{
+        display: flex;
+        margin-top: 70px;
+        margin-left: 300px;
+        color: $color01;
+        font-size: 16px;
+        li{
+            margin-left: 50px;
+        }
+        li:nth-child(4){
+            margin-right: 30px;
+        }
+    }
+    .logo{
+        margin-left: 90px;
+        margin-top: 50px;
+    
+    }
+    .search{
+        width: 150px;
+        margin-top: 55px;
+        margin-right: 20px;
+    /*	width: 100%;*/
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('../images/search.png');
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+    }
+}
+
+
+
+
+
+
+/*MAIN COVER*/
+.cover{
+	background-image: url('../images/cover.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	max-width: 1220px;
+	margin: 0 auto;
+	margin-top: 60px;
+	width: $width01;
+	height: 613px;
+	display: flex;
+}
+.covertextbox{
+	background-color: $color02;
+	max-width: 481px;
+	width: $width01;
+	max-height: 328px;
+	height: 100%;
+	margin-top: 285px;
+	margin-left: 739px;
+}
+.coverH{
+	margin-top: 20px;
+	font-size: 40px;
+	color: $color01;
+}
+.coverP{
+	margin-top: 30px;
+	font-size: 24px;
+	color: $color01;
+}
+.readarrow{
+	margin-top: 50px;
+	margin-left: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.readmore{
+	font-size: 24px;
+	color: $color01;
+}
+
+/*POPULAR ARTICLES*/
+.popular{
+	max-width: 1220px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.popularH{
+	font-size: 40px;
+	color: $color01;
+}
+.boxes1{
+    @include d-flex (flex, space-between, center);
+	margin-top: 40px;
+}
+.smallbox{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 20px;
+	box-shadow: 2px 2px 2px grey;
+}
+.boxphoto img {
+	width: 90%;
+	height: 90%;
+}
+.smallbox h1 {
+	font-size: 30px;
+	color: $color01;
+	margin-top: 15px;
+}
+.smallbox p {
+	font-size: 18px;
+	color: $color01;
+	margin-top: 30px;
+}
+#more{
+	font-size: 18px;
+	color: $color01;
+	margin-top: 30px;
+	margin-left: 330px;
+	margin-bottom: 20px;
+}
+.boxes2{
+    @include d-flex (flex, space-between, center);
+	margin-top: 200px;
+}
+
+/*FOOTER*/
+
+.footer{
+	max-width: 1220px;
+	margin: 0 auto;
+	margin-top: 60px;
+	width: $width01;
+	height: 150px;
+    @include d-flex (flex, space-between, center);
+	background-color: #2E2E2E;
+	color: $color02;
+}
+.logo2{
+	margin-left: 90px;
+	margin-top: 30px;
+}
+.contactH{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.contact p {
+	font-size: 13px;
+}
+.addressH{
+	font-size: 20px;
+	margin-bottom: 10px
+}
+.address p {
+	font-size: 13px;
+}
+.icons{
+	margin-right: 30px;
+    font-size: 30px;
+}
